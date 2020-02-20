@@ -4,7 +4,6 @@ import java.io.File;
 import java.util.Scanner;
 
 public class ListPastTxtECriarPast {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a folder path: ");
@@ -24,5 +23,4 @@ public class ListPastTxtECriarPast {
 		System.out.println("Directory created successfully: " + success);
 		sc.close();
 	}
-
 }
