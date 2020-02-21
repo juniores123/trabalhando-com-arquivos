@@ -50,7 +50,7 @@ public class LerEExportaArquivoCsv {
 			try (BufferedWriter bw = new BufferedWriter(new FileWriter(targetFileStr))) {
 
 				for (Produto item : list) {
-					bw.write(item.getNome() + "," + String.format("%.2f", item.getTotal()));
+					bw.write(item.getNome() + "," + String.format("%.2f", item.valorFinal()));
 					bw.newLine();
 				}
 
